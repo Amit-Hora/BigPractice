@@ -37,9 +37,9 @@ public class AvroKafkaApplication {
 		
 		
 		Properties cprops = new Properties();
-		cprops.put("bootstrap.servers", "nlxs5170.best-nl0114.slb.com:6667,nlxs5171.best-nl0114.slb.com:6667");
+		cprops.put("bootstrap.servers", "XX:9092");
 
-		cprops.put("zookeeper.connect", "nlxs5139.best-nl0114.slb.com:2181,nlxs5141.best-nl0114.slb.com:2181,nlxs5140.best-nl0114.slb.com:2181");
+		cprops.put("zookeeper.connect", "XX:2181");
 		cprops.put("group.id", "g4");
 		cprops.put("zookeeper.session.timeout.ms", "400");
 		cprops.put("zookeeper.sync.time.ms", "200");
