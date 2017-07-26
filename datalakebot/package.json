@@ -1,0 +1,28 @@
+{
+  "name": "datalakebot",
+  "version": "1.0.0",
+  "description": "Bot for Data Lake",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Amit-Hora/BigPractice.git"
+  },
+  "keywords": [
+    "'"
+  ],
+  "author": "AmitHora",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Amit-Hora/BigPractice/issues"
+  },
+  "homepage": "https://github.com/Amit-Hora/BigPractice#readme",
+  "dependencies": {
+    "botbuilder": "^3.8.4",
+    "botbuilder-azure": "^3.0.2",
+    "restify": "^5.0.1"
+  }
+}
