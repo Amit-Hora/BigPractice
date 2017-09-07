@@ -1,3 +1,6 @@
 runtime: nodejs
 vm: true
 service: my-botservicev1
+env_variables:
+  MICROSOFT_APP_ID: 'XX'
+  MICROSOFT_APP_PASSWORD: 'XX'
