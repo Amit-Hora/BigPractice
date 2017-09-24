@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+
+<head>
+<title>Issue Searcher</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+<link rel="stylesheet" type="text/css"
+	href="webjars/bootstrap/3.3.7/css/bootstrap.min.css" />
+</head>
+<body>
+
+	<nav class="navbar navbar-inverse">
+		<div class="container">
+			<div class="navbar-header">
+				<a class="navbar-brand" href="#">amithora.com</a>
+			</div>
+		</div>
+	</nav>
+
+	<div class="container" style="min-height: 500px">
+
+		<div class="starter-template">
+			<h1>Issue Searcher</h1>
+
+
+
+			<form class="form-horizontal" id="search-form">
+				<div class="form-group form-group-lg">
+					<label class="col-sm-2 control-label">Issue</label>
+					<div class="col-sm-10">
+						<input type="text" class="form-control" id="issue"
+							onkeydown="getissue()" /> <input type="hidden"
+							class="form-control" id="issuevalue" />
+						<div id="feedback"></div>
+					</div>
+				</div>
+
+				<div class="form-group">
+					<div class="col-sm-offset-2 col-sm-10">
+						<button type="submit" id="bth-search"
+							class="btn btn-primary btn-lg">Search</button>
+							
+							<input type="button" value="InteractWithBot" onclick="getbotframe1()" id="botbutton"/>
+					</div>
+				</div>
+
+				<div class="form-group">
+					<div class="col-sm-offset-2 col-sm-10" id="feedback2"></div>
+				</div>
+			</form>
+
+		</div>
+
+	</div>
+
+	<div id="botframe">
+		<!-- <iframe
+			src='https://webchat.botframework.com/embed/datalakebot?s=nz3xM71mRMo.cwA.ecQ.N7qKZyMrNcm2d26xu4bW3ghD6eJ5q0RGyI7mS9LdPis'></iframe>
+	 -->
+	 
+	 </div>
+	<div class="container">
+		<footer>
+			<p>
+				© <a href="http://www.amithora.com">amithora.com</a> 2017
+			</p>
+		</footer>
+	</div>
+
+	<script type="text/javascript" src="webjars/jquery/2.2.4/jquery.min.js"></script>
+
+	<script type="text/javascript" src="main.js"></script>
+
+</body>
+</html>
