@@ -21,7 +21,7 @@ public class AvroKafkaApplication {
 
 	public static void main(String[] args) throws InterruptedException, ExecutionException {
 		Properties kafkaProps = new Properties();
-		kafkaProps.put("bootstrap.servers", "nlxs5170.best-nl0114.slb.com:6667,nlxs5171.best-nl0114.slb.com:6667");
+		kafkaProps.put("bootstrap.servers", "xxx.com:6667,xxx:6667");
 
 		kafkaProps.put("key.serializer", "org.apache.kafka.common.serialization.StringSerializer");
 		kafkaProps.put("value.serializer", "org.apache.kafka.common.serialization.ByteArraySerializer");
